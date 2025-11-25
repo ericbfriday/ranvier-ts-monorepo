@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"module": "es2020",
+		"target": "es2017",
+		"declaration": true,
+		"outDir": "./dist/esm",
+		"noImplicitAny": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"types": [
+			"node",
+			"bcryptjs",
+			"js-yaml",
+			"uuid",
+			"winston",
+			"ws"
+		]
+	},
+	"include": [
+		"src/**/*"
+	]
+}

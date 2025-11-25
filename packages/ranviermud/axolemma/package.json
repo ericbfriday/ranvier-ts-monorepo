@@ -1,0 +1,46 @@
+{
+  "name": "axolemma",
+  "version": "0.5.3",
+  "description": "A tool to procedurally generate areas compatible with the Ranvier MUD engine.",
+  "main": "index.js",
+  "bin": {
+    "axolemma": "bin/axolemma"
+  },
+  "scripts": {
+    "test": "mocha ./src/**/*.spec.js",
+    "lint": "standard ./**/*.js --fix"
+  },
+  "keywords": [
+    "ranvier",
+    "mud",
+    "game",
+    "procgen",
+    "procedurally",
+    "generated",
+    "rot-js"
+  ],
+  "author": "Sean O'Donohue",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "dashify": "^1.0.0",
+    "find-config": "^1.0.0",
+    "inquirer": "^6.2.2",
+    "js-yaml": "^3.10.0",
+    "loglevel": "^1.6.1",
+    "pretty-print": "^1.1.0",
+    "requires-node-version": "^1.0.0",
+    "rot-js": "^0.6.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "standard": "^11.0.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
