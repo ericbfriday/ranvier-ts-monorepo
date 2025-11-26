@@ -21,13 +21,13 @@
     "optimist": "",
     "ranvier": "^3.0.5",
     "ranvier-datasource-file": "^1.0.3",
-    "semver": "^5.6.0",
+    "semver": "^5.7.2",
     "sprintf-js": "^1.0.3",
     "sty": "",
     "uuid": "^3.3.2",
     "winston": "^2.4.4"
   },
   "devDependencies": {
-    "git-url-parse": "^11.1.2"
+    "git-url-parse": "^16.1.0"
   }
 }
