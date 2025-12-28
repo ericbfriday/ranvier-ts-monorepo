@@ -16,6 +16,23 @@ class MobManager {
   }
 
   /**
+   * Find a mob by name prefix match with optional predicate filter
+   * @param {string} search - Name prefix to search for
+   * @param {function} predicate - Optional filter function
+   * @return {Mob|undefined}
+   */
+  find(search, predicate) {
+    for (const mob of this.mobs.values()) {
+      if (mob.name.indexOf(search) === 0) {
+        if (predicate && !predicate(mob)) {
+          continue;
+        }
+        return mob;
+      }
+    }
+  }
+
+  /**
    * Completely obliterate a mob from the game, nuclear option
    * @param {Mob} mob
    */
