@@ -1,0 +1,13 @@
+{
+  "sourceType": "ideation",
+  "ideationType": "code_improvements",
+  "ideaId": "ci-005",
+  "rationale": "SkillManager has find(search, includePassive) for prefix-matching skills. ChannelManager has find(search) for prefix-matching channels. PlayerManager has filter(predicate) for complex searches. ItemManager and MobManager lack these search capabilities, forcing bundle code to manually iterate. The pattern is well-established and should be consistent across all managers.",
+  "category": "feature",
+  "estimatedEffort": "small",
+  "complexity": "small",
+  "affectedFiles": [
+    "packages/ranvier-core-ts/src/ItemManager.ts",
+    "packages/ranvier-core-ts/src/MobManager.ts"
+  ]
+}

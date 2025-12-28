@@ -1,0 +1,25 @@
+{
+  "active": true,
+  "spec": "001-add-find-method-to-itemmanager-and-mobmanager",
+  "state": "building",
+  "subtasks": {
+    "completed": 5,
+    "total": 6,
+    "in_progress": 1,
+    "failed": 0
+  },
+  "phase": {
+    "current": "Verification and Build",
+    "id": null,
+    "total": 2
+  },
+  "workers": {
+    "active": 0,
+    "max": 1
+  },
+  "session": {
+    "number": 7,
+    "started_at": "2025-12-28T05:10:38.091535"
+  },
+  "last_update": "2025-12-28T05:28:13.117965"
+}

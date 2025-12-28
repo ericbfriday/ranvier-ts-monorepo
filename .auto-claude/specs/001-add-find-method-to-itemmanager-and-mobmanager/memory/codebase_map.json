@@ -1,0 +1,20 @@
+{
+  "discovered_files": {
+    "packages/ranvier-core-ts/src/SkillManager.ts": {
+      "description": "SkillManager.find() uses indexOf(search) === 0 for prefix matching on skill.id. Second param is includePassive boolean filter.",
+      "category": "pattern",
+      "discovered_at": "2025-12-28T11:13:46.327912+00:00"
+    },
+    "packages/ranvier-core-ts/src/ItemManager.ts": {
+      "description": "ItemManager.find(search, predicate?) implemented - uses indexOf(search) === 0 for name prefix matching with optional predicate filter",
+      "category": "implementation",
+      "discovered_at": "2025-12-28T11:16:26.214749+00:00"
+    },
+    "packages/ranvier-core-ts/src/MobManager.ts": {
+      "description": "MobManager uses Map<string, Npc> keyed by uuid. Iterate over values() to access NPCs.",
+      "category": "architecture",
+      "discovered_at": "2025-12-28T11:13:46.589062+00:00"
+    }
+  },
+  "last_updated": "2025-12-28T11:16:26.214774+00:00"
+}
