@@ -9,7 +9,7 @@
   "author": "Brian Nelson <nelsonsbrian@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@hapi/joi": "^17.1.0",
+    "@hapi/joi": "npm:joi@^17.13.6",
     "indefinite-article": "0.0.2",
     "pluralize": "^8.0.0",
     "rando-js": "github:seanohue/rando#master",

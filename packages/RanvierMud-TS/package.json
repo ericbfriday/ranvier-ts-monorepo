@@ -19,7 +19,6 @@
     "commander": "10.0.1",
     "humanize": "0.0.9",
     "humanize-duration": "^3.24.0",
-    "optimist": "",
     "rando-js": "^0.2.0",
     "ranvier": "workspace:*",
     "ranvier-datasource-file": "^1.0.3",
@@ -28,9 +27,9 @@
     "sprintf-js": "^1.1.2",
     "sty": "",
     "ts-node": "^10.9.1",
-    "uuid": "^3.3.2",
+    "uuid": "^11.1.1",
     "winston": "^2.4.4",
-    "ws": "^5.2.4"
+    "ws": "^8.22.2"
   },
   "devDependencies": {
     "@types/node": "^20.2.1",

@@ -18,7 +18,7 @@ import { SerializedAttributes } from './EffectableEntity';
 import { ItemManager } from './ItemManager';
 import { EntityDefinitionBase } from './EntityFactory';
 
-const uuid = require('uuid/v4');
+const { v4: uuid } = require('uuid');
 
 export declare interface IItemDef extends EntityDefinitionBase {
 	name: string;

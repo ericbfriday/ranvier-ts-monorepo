@@ -1,6 +1,6 @@
 'use strict';
 
-const uuid = require('uuid/v4');
+const { v4: uuid } = require('uuid');
 const Attributes = require('./Attributes');
 const Character = require('./Character');
 const Config = require('./Config');

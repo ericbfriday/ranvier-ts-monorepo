@@ -8,7 +8,7 @@ import { IItemDef } from './Item';
 import { Logger } from './Logger';
 import { Room } from './Room';
 
-const uuid = require('uuid');
+const { v4: uuid } = require('uuid');
 
 export interface INpcDef extends ICharacterConfig, EntityDefinitionBase {
 	behaviors?: Record<string, any>;

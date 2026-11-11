@@ -11,23 +11,21 @@
     "node": ">= 10.12.0"
   },
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text --include=src --all mocha --recursive",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "nyc --reporter=html --reporter=text --include=src --all mocha --recursive"
   },
   "main": "index.js",
   "dependencies": {
     "bcryptjs": "^2.4.0",
-    "js-yaml": "^3.14.2",
+    "js-yaml": "^3.15.2",
     "longjohn": "^0.2.11",
     "pretty-error": "^2.0.2",
     "require-dir": "^1.1.0",
     "sty": "",
-    "uuid": "^3.3.2",
+    "uuid": "^11.1.1",
     "winston": "^2.4.4",
     "wrap-ansi": "^2.0.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
     "mocha": "^5.2.0",
     "nyc": "^17.1.0"
   }
